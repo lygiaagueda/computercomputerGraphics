@@ -3,18 +3,18 @@ Lygia Águeda Aguiar Bezerra
 
 ## Rasterização de Pontos
 Inicialmente, o posicionamento de um pixel na tela é fundamental para o desenvolvimento de qualquer desenho, como por exemplo o de uma simples reta, pois uma reta é formada ṕor infinitos pontos. Vale ressaltar que um pixel é comporto por 4 componentes, a componente vermelha(r), a componete verde(g), a componente azul(b) e a componente que e a componente que equivale a sua transparência(a). Assim, foi feita uma estrutura para o pixel com as informações ditas anteriormente e uma estrutura com as coordenadas do ponto, estão estruturadas na forma presente na figura abaixo.
-<p align="center">
+<center>
 ![Figura 1 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/estruturas.png?raw=true)
 Figura 1 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel
 </p>
 Com essas estruturas foi realizada a função PutPixel que desenha pontos na tela
 
-<p align="center">
+<center>
 ![Figura 2 - Função PutPixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/putpixel.png?raw=true)
 Figura 2 - Função PutPixel
 ![Figura 3 - Pontos gerado scom a função PutPixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/pontos.png?raw=true)
 Figura 3 - Pontos gerado scom a função PutPixel
-</p>
+</center>
 ## Rasterização de Linhas
 O algoritmo de Bresenham funciona apenas para desenhar retas no primeiro octante da tela, ou seja, retas entre 0º e 45º. Para que possamos representar retas nos demais octantes é preciso realizar uma generalização do algoritmo.
 
