@@ -7,6 +7,7 @@ Inicialmente, o posicionamento de um pixel na tela é fundamental para o desenvo
 <center>
 
 ![Figura 1 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/estruturas.png?raw=true)
+
 Figura 1 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel
 
 </center>
@@ -67,6 +68,7 @@ A última etapa da tarefa era o desenho de o um triângulo que é chamar a funç
 Figura 7 - Triângulo
 
 </p>
+
 ## Dificuldades
 A maior dificuldade encontrada foi generalizar o algoritmo de Bresenham para fazê-lo funcionar em todos os octantes. 
 
