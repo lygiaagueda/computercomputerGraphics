@@ -8,7 +8,7 @@ Para isso já foi usado o Makefile já existente na pasta, mas antes foi necess�
 ## Resultado
 Abaixo está o vídeo mostrando a compilação e execução do programa.
 
-[![Watch the video]](https://www.youtube.com/watch?v=laRx2zKcocQ&feature=youtu.be)
+[![Watch the video]()](https://www.youtube.com/watch?v=laRx2zKcocQ&feature=youtu.be)
 
 ## Compilando e executando o projeto
 Para compilar e executar o projeto, basta digitar os seguintes comandos no terminal:
