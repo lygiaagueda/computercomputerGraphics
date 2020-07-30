@@ -5,11 +5,11 @@ Lygia Águeda Aguiar Bezerra - 20170016898
 Nesta atividade foram desenvolvidas transformações geométricas presentes na estrutura do pipeline gráfico. Elas estão desenvolvidas nos tópicos abaixo, sendo elas a transformação escalar, translação, projeção perspectiva e posição da câmera.
 
 ### Escala
-Nessa transformação altera-se o tamanho do objeto. Para isso é preciso alterar a matriz Model. Para o exemplo desse trabalho foi pedido que a escala tivesse valor (x,y,z) = (1/3, 3/2, 1), resultando em um cósigo pra a matriz Model como o apresentado abaixo.
+Nessa transformação altera-se o tamanho do objeto. Para isso é preciso alterar a matriz Model. Para o exemplo desse trabalho foi pedido que a escala tivesse valor (x,y,z) = (1/3, 3/2, 1), resultando em um código pra a matriz Model como o apresentado abaixo.
 
 <center>
 
-![Figura 1 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/estruturas.png?raw=true)
+![Figura 1 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens//codigo_escala.png?raw=true)
 
 </center>
 
@@ -17,7 +17,7 @@ Que resulta na figura abaixo.
 
 <center>
 
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/estruturas.png?raw=true)
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/escala.png?raw=true)
 
 </center>
 
@@ -26,7 +26,7 @@ Na translação o objeto sofre um deslocamento, para o caso do exemplo que será
 
 <center>
 
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/estruturas.png?raw=true)
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/codigo_translacao.png?raw=true)
 
 </center>
 
@@ -34,25 +34,17 @@ Resultando na seguinte figura
 
 <center>
 
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/estruturas.png?raw=true)
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/translacao.png?raw=true)
 
 </center>
 
 ### Projeção perspectiva
 Com essa transformação é possível notar uma diferença de perspectiva entre os objetos. Para isso é preciso alterar a matriz de projeção de acordo como d desesejado, sende este a distância de projeção até a origem da câmera.
-Essa matriz possui a seguinte configuração
-
-<center>
-
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/estruturas.png?raw=true)
-
-</center>
-
 Então é preciso alterar a matriz de projeção no código da seguinte forma, assumindo que o d pedido é igual a 1/2
 
 <center>
 
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/estruturas.png?raw=true)
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/codigo_perspectiva.png?raw=true)
 
 </center>
 
@@ -60,7 +52,7 @@ Resultando na figura abaixo
 
 <center>
 
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/estruturas.png?raw=true)
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/perspectiva.png?raw=true)
 
 </center>
 
@@ -74,7 +66,7 @@ Com essas informações é possível calcular o x, y e z da camera como mostrado
 
 <center>
 
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/estruturas.png?raw=true)
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/calculozxy.png?raw=true)
 
 </center>
 
@@ -84,7 +76,7 @@ Sendo B transposta igual a
 
 <center>
 
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/estruturas.png?raw=true)
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/matrizb.png?raw=true)
 
 </center>
 
@@ -92,7 +84,7 @@ e o T igual a
 
 <center>
 
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/estruturas.png?raw=true)
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/t.png?raw=true)
 
 </center>
 
@@ -100,7 +92,7 @@ Precisando assim do seguinte código
 
 <center>
 
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/estruturas.png?raw=true)
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/codigo_posicaoCamera.png?raw=true)
 
 </center>
 
@@ -108,7 +100,7 @@ O que resulta na imagem apresentada abaixo quando é dado um valor de posição 
 
 <center>
 
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/estruturas.png?raw=true)
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/posicaoCamera.png?raw=true)
 
 </center>
 
@@ -118,7 +110,13 @@ Resultando nos seguintes códigos.
 
 <center>
 
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/estruturas.png?raw=true)
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/codigo_livre1.png?raw=true)
+
+</center>
+
+<center>
+
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/codigo_livre2.png?raw=true)
 
 </center>
 
@@ -126,7 +124,7 @@ O que leva o objeto a se apresentar da seguinte forma.
 
 <center>
 
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/estruturas.png?raw=true)
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/livre.png?raw=true)
 
 </center>
 
