@@ -9,7 +9,7 @@ Para a aplicação desse modelo é necessário aplicar a fórmula abaixo:
  
 <center>
 
-![Figura 1 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens//codigo_escala.png?raw=true)
+![Figura 1 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade4-ModelosDeIlumicacao/imagens/modeloDifuso.png?raw=true)
 
 </center>
 
@@ -17,7 +17,7 @@ Em que o cosseno de teta é o mesmo que L*N, sendo L a direção da luz e N o ve
 
 <center>
 
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/escala.png?raw=true)
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade4-ModelosDeIlumicacao/imagens/codigo1.png?raw=true)
 
 </center>
 
@@ -25,7 +25,7 @@ Que gera a figura apresentada abaixo.
 
 <center>
 
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/escala.png?raw=true)
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade4-ModelosDeIlumicacao/imagens/1.png?raw=true)
 
 </center>
 
@@ -35,7 +35,7 @@ Esse modelo também é conhecido por modelo de Phong e é preciso aplicar a segu
 
 <center>
 
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/codigo_translacao.png?raw=true)
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade4-ModelosDeIlumicacao/imagens/modeloPhong.png?raw=true)
 
 </center>
 
@@ -43,7 +43,7 @@ Em que o cosseno de teta já foi explicitado na sessão acima e o cosseno de alp
 
 <center>
 
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/translacao.png?raw=true)
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade4-ModelosDeIlumicacao/imagens/codigo2.png?raw=true)
 
 </center>
 
@@ -51,7 +51,7 @@ Gerando o resultado apresentado abaixo.
 
 <center>
 
-![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade3-Transforma%C3%A7%C3%B5esGeom%C3%A9tricas/imagens/translacao.png?raw=true)
+![Figura 2 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade4-ModelosDeIlumicacao/imagens/2.png?raw=true)
 
 </center>
 
