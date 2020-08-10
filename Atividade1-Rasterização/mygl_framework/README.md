@@ -6,7 +6,7 @@ Inicialmente, o posicionamento de um pixel na tela é fundamental para o desenvo
 
 <center>
 
-![Figura 1 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/estruturas.png?raw=true)
+![Figura 1 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade1-Rasteriza%C3%A7%C3%A3o/mygl_framework/print/estruturas.png?raw=true)
 
 Figura 1 - Estruturas usadas para armazenar as coordenadas dos pontos e cor o pixel
 
@@ -16,11 +16,11 @@ Com essas estruturas foi realizada a função PutPixel que desenha pontos na tel
 
 <center>
 
-![Figura 2 - Função PutPixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/putpixel.png?raw=true)
+![Figura 2 - Função PutPixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade1-Rasteriza%C3%A7%C3%A3o/mygl_framework/print/putpixel.png?raw=true)
 
 Figura 2 - Função PutPixel
 
-![Figura 3 - Pontos gerado scom a função PutPixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/pontos.png?raw=true)
+![Figura 3 - Pontos gerado scom a função PutPixel](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade1-Rasteriza%C3%A7%C3%A3o/mygl_framework/print/pontos.png?raw=true)
 
 Figura 3 - Pontos gerado scom a função PutPixel
 
@@ -39,7 +39,7 @@ Com essas alterações obtemos seguinte resultado:
 
 <p align="center">
 
-![Figura 4 - Retas em todos nos octantes de um plano](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/retasSemInterpolacao.png?raw=true)
+![Figura 4 - Retas em todos nos octantes de um plano](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade1-Rasteriza%C3%A7%C3%A3o/mygl_framework/print/retasSemInterpolacao.png?raw=true)
 
 Figura 4 - Retas em todos nos octantes de um plano
 
@@ -49,11 +49,11 @@ A interpolação linear das cores foi solucionada com uma simples lógica matem�
 
 <p align="center">
 
-![Figura 5 - Função usada para interpolação de cores](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/interpolacao.png?raw=true)
+![Figura 5 - Função usada para interpolação de cores](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade1-Rasteriza%C3%A7%C3%A3o/mygl_framework/print/interpolacao.png?raw=true)
 
 Figura 5 - Função usada para interpolação de cores
 
-![Figura 6 - As mesma retas geradas na função acima, mas com interpolação de cores](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/retas.png?raw=true)
+![Figura 6 - As mesma retas geradas na função acima, mas com interpolação de cores](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade1-Rasteriza%C3%A7%C3%A3o/mygl_framework/print/retas.png?raw=true)
 
 Figura 6 - As mesma retas geradas na função acima, mas com interpolação de cores
 
@@ -63,7 +63,7 @@ A última etapa da tarefa era o desenho de o um triângulo que é chamar a funç
 
 <p align="center">
 
-![Figura 7 - Triângulo](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/mygl_framework/print/triangulo.png?raw=true)
+![Figura 7 - Triângulo](https://github.com/lygiaagueda/computercomputerGraphics/blob/master/Atividade1-Rasteriza%C3%A7%C3%A3o/mygl_framework/print/triangulo.png?raw=true)
 
 Figura 7 - Triângulo
 
